@@ -4,7 +4,7 @@ class Demo
 {
 	float len, bre;
 	public:
-		void setData(int len, int bre)
+		void setData(float len, float bre)
 		{
 			this->len = len;
 			this->bre = bre;
@@ -19,7 +19,7 @@ void area(Demo d)
 int main()
 {
 	Demo d;
-	int len, bre;
+	float len, bre;
 	cout<<"Enter length and breadth"<<endl;
 	cin>>len>>bre;
 	d.setData(len, bre);
